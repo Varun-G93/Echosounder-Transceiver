@@ -1,0 +1,128 @@
+(footprint "C0201"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
+	(tags "capacitor")
+	(property "Reference" "REF**"
+		(at 0 -1.05 0)
+		(layer "F.SilkS")
+		(uuid "d2932dba-374f-41c6-9c42-ff0bb29c371b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C0201"
+		(at 0 1.05 0)
+		(layer "F.Fab")
+		(uuid "e4eeeb27-5547-489e-aa8d-0b58108b7f71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84db9b1d-a43f-474c-9130-2b922f5abab2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce6badc8-1d2f-45ad-93cf-c93e559c221c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.7 -0.35)
+		(end 0.7 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "34cf14e6-9999-42cb-bf3d-0ab4b27c9059")
+	)
+	(fp_rect
+		(start -0.3 -0.15)
+		(end 0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "74b998db-2fb8-4829-ae35-23c2fe7ea19f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.68 0)
+		(layer "F.Fab")
+		(uuid "87f8878b-473c-4ae9-ab6e-7a961488a6b6")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at -0.345 0)
+		(size 0.318 0.36)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0e51f042-4137-4072-8384-da3e138ae353")
+	)
+	(pad "" smd roundrect
+		(at 0.345 0)
+		(size 0.318 0.36)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "3102ba17-232e-4d30-bbd2-b99fae07b921")
+	)
+	(pad "1" smd roundrect
+		(at -0.32 0)
+		(size 0.46 0.4)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "aed260fe-972b-4fc5-9cbb-59155ba0bf30")
+	)
+	(pad "2" smd roundrect
+		(at 0.32 0)
+		(size 0.46 0.4)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "6227c2b9-8414-43e9-b629-85e22ad76249")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0201_0603Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
