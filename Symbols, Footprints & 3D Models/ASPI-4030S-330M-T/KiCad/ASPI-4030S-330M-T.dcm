@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ASPI-4030S-330M-T
+D 33 H Shielded Drum Core, Wirewound Inductor 840 mA 330mOhm Nonstandard
+K
+F https://abracon.com/Magnetics/power/ASPI-4030S.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,4 +1,4 @@
-27590964093869325
+27603394777950848
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60312,9 +60312,37 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 Echosounder Transceiver FP
+AU1PMHM384A
+DO-220AA (SMP)
+Diode
+0
+2
+2
+Echosounder Transceiver FP
 DDPAK-7
 
 LT1210CR-PBF 
+0
+8
+8
+Echosounder Transceiver FP
+DFN18
+
+MD0105K6-G 
+0
+19
+19
+Echosounder Transceiver FP
+INDPM4040X300N
+ASPI-4030S
+Inductor
+0
+2
+2
+Echosounder Transceiver FP
+MSOP8
+
+MCP6S91-E/MS 
 0
 8
 8
@@ -60326,12 +60354,33 @@ RM6
 16
 8
 Echosounder Transceiver FP
+RU_14_ADI-L
+
+AD8608ARUZ-REEL 
+0
+14
+14
+Echosounder Transceiver FP
 SC-70
 
 MIC5365-2.5YC5-TR 
 0
 5
 5
+Echosounder Transceiver FP
+SIR622DPT1RE3
+SIR622DP-T1-RE3-2
+MOSFET (N-Channel)
+0
+11
+3
+Echosounder Transceiver FP
+SOIC127P602X173-8N
+PG-DSO-8_(H=1.73mm)
+Integrated Circuit
+0
+8
+8
 Echosounder Transceiver FP
 SOT-223
 

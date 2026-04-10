@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SIR622DP-T1-RE3
+D N-Channel 150 V 12.6A (Ta), 51.6A (Tc) 6.25W (Ta), 104W (Tc) Surface Mount PowerPAK SO-8
+K
+F https://www.vishay.com/docs/75758/sir622dp.pdf
+$ENDCMP
+#
+#End Doc Library
