@@ -565,61 +565,55 @@
           "group_by": false,
           "label": "ManufacturerPartNumber",
           "name": "ManufacturerPartNumber",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "OperatingTemperatureRange",
           "name": "OperatingTemperatureRange",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Supplier",
           "name": "Supplier",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "SupplierPartNumber",
           "name": "SupplierPartNumber",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "SupplierURL",
           "name": "SupplierURL",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "UnitPriceINR",
           "name": "UnitPriceINR",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "XaltelPartNumber",
-          "name": "XaltelPartNumber",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "XaltenPartNumber",
           "name": "XaltenPartNumber",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -691,6 +685,18 @@
     [
       "718ddfce-9755-4652-a157-3f519ba48648",
       "Transmit"
+    ],
+    [
+      "719e498a-c24a-45e1-9915-628fc4e9a290",
+      "Charge Amp + Inverting Amp"
+    ],
+    [
+      "8ccc2018-6236-4cf3-b206-e2aa01e042f6",
+      "Filter + Inverting Amp + Buffer"
+    ],
+    [
+      "6f7815b7-4f10-48e1-87ce-ecf690df90d0",
+      "PGA"
     ]
   ],
   "text_variables": {}

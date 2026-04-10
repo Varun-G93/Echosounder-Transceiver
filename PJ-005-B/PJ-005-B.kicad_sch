@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "f8bcf36d-3331-4358-bdb9-a545dbff75f1")
 	(paper "A4")
+	(title_block
+		(title "Echosounder Transceiver")
+		(date "06-04-2026")
+		(rev "0.1")
+		(company "Xalten Systems Pvt. Ltd.")
+		(comment 1 "Designed by: Varun G")
+	)
 	(lib_symbols)
 	(sheet
 		(at 158.75 34.29)

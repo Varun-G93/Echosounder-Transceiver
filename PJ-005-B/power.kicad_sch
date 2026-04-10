@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "c15009fa-44a8-46dd-b80d-6981c20b27f1")
 	(paper "A3")
+	(title_block
+		(title "Echosounder Transceiver")
+		(date "06-04-2026")
+		(rev "0.1")
+		(company "Xalten Systems Pvt. Ltd.")
+		(comment 1 "Designed by: Varun G")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -2708,6 +2715,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 134.62) (xy 350.52 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0fac3e3-9fb0-4142-acf7-aae02d997315")
+	)
+	(wire
+		(pts
 			(xy 140.97 46.99) (xy 123.19 46.99)
 		)
 		(stroke
@@ -3410,15 +3427,6 @@
 				(hide yes)
 			)
 		)
-		(property "XaltelPartNumber" "REG-ADJ"
-			(at 95.25 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "Element14"
 			(at 95.25 46.99 0)
 			(effects
@@ -3456,6 +3464,15 @@
 			)
 		)
 		(property "OperatingTemperatureRange" "-40C to 125C"
+			(at 95.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "XaltenPartNumber" "REG-ADJ"
 			(at 95.25 46.99 0)
 			(effects
 				(font
@@ -3699,15 +3716,6 @@
 				(hide yes)
 			)
 		)
-		(property "XaltelPartNumber" "REG-ADJ"
-			(at 95.25 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "Element14"
 			(at 95.25 110.49 0)
 			(effects
@@ -3745,6 +3753,15 @@
 			)
 		)
 		(property "OperatingTemperatureRange" "-40C to 125C"
+			(at 95.25 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "XaltenPartNumber" "REG-ADJ"
 			(at 95.25 110.49 0)
 			(effects
 				(font
@@ -6099,6 +6116,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 350.52 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcdc0fa7-144a-4b8b-87ce-c36c6a08e4ee")
+		(property "Reference" "#PWR058"
+			(at 350.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 350.52 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 350.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 350.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 350.52 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "738a4aea-de1d-4862-94d3-9c4004e7c260")
+		)
+		(instances
+			(project "PJ-005-B"
+				(path "/f8bcf36d-3331-4358-bdb9-a545dbff75f1/ec191d7b-699b-4783-a9b8-9c242f8d077f"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-2V5")
 		(at 356.87 105.41 0)
 		(unit 1)
@@ -6237,15 +6320,6 @@
 				(hide yes)
 			)
 		)
-		(property "XaltelPartNumber" "REG-ADJ"
-			(at 95.25 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Supplier" "Element14"
 			(at 95.25 177.8 0)
 			(effects
@@ -6283,6 +6357,15 @@
 			)
 		)
 		(property "OperatingTemperatureRange" "-40C to 125C"
+			(at 95.25 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "XaltenPartNumber" "REG-ADJ"
 			(at 95.25 177.8 0)
 			(effects
 				(font

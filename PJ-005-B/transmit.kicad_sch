@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "d0d19310-95f6-4c33-9187-d2130745902c")
 	(paper "A2")
+	(title_block
+		(title "Echosounder Transceiver")
+		(date "06-04-2026")
+		(rev "0.1")
+		(company "Xalten Systems Pvt. Ltd.")
+		(comment 1 "Designed by: Varun G")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names

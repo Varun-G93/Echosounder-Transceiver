@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "230e226c-3725-4648-92b9-fa95ecc4c284")
+	(paper "A4")
+	(title_block
+		(title "Echosounder Transceiver")
+		(date "06-04-2026")
+		(rev "0.1")
+		(company "Xalten Systems Pvt. Ltd.")
+		(comment 1 "Designed by: Varun G")
+	)
+	(lib_symbols)
+)
