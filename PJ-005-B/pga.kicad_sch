@@ -2810,10 +2810,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "497a1274-f245-4618-8cac-ff23e7e62083")
 		(property "Reference" "U12"
-			(at 144.78 101.6 0)
+			(at 124.714 111.76 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -2821,7 +2820,7 @@
 			)
 		)
 		(property "Value" "MCP6S91-E/MS"
-			(at 144.78 104.14 0)
+			(at 135.636 122.428 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3785,10 +3784,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a5c66c5b-487f-4dd0-b4f4-80cf788547ed")
 		(property "Reference" "U10"
-			(at 236.22 107.8798 0)
+			(at 214.63 106.934 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +3794,7 @@
 			)
 		)
 		(property "Value" "AD8608ARUZ-REEL"
-			(at 236.22 110.4198 0)
+			(at 231.648 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)

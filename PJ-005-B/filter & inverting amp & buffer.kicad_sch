@@ -4486,7 +4486,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1204c7ae-9569-44b4-b355-a4190f149ffd")
 		(property "Reference" "#PWR078"
 			(at 102.87 82.55 0)
@@ -4498,7 +4497,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 102.87 73.66 0)
+			(at 105.918 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,7 +5355,7 @@
 		(dnp no)
 		(uuid "387fa188-8fb5-4ff4-9a97-8599f349cb8d")
 		(property "Reference" "U11"
-			(at 174.244 69.85 0)
+			(at 171.196 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5363,7 @@
 			)
 		)
 		(property "Value" "AD8608ARUZ-REEL"
-			(at 179.324 57.912 0)
+			(at 186.436 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +5519,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e89f34b-ba70-4a55-9021-30ebc22fcd7d")
 		(property "Reference" "#PWR082"
 			(at 182.88 66.04 0)
@@ -5532,7 +5530,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 64.77 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +6355,7 @@
 		(dnp no)
 		(uuid "671c4173-7ef4-4f42-87ba-7e3247441b06")
 		(property "Reference" "U11"
-			(at 360.68 63.4298 0)
+			(at 339.09 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,7 +6588,7 @@
 		(dnp no)
 		(uuid "695d17d8-cf00-4a04-913a-43b574111364")
 		(property "Reference" "U11"
-			(at 94.234 69.85 0)
+			(at 90.424 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,7 +6596,7 @@
 			)
 		)
 		(property "Value" "AD8608ARUZ-REEL"
-			(at 104.14 61.722 0)
+			(at 107.188 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8601,7 +8599,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "da68f6a6-0c21-4ded-991f-98683c9ecd8e")
 		(property "Reference" "#PWR083"
 			(at 182.88 85.09 0)
@@ -8613,7 +8610,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 182.88 76.2 0)
+			(at 182.88 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8670,7 +8667,7 @@
 		(dnp no)
 		(uuid "dd45f6f7-3109-49bc-8d17-f694a6c7d41d")
 		(property "Reference" "U11"
-			(at 267.97 76.2702 0)
+			(at 246.634 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8678,7 +8675,7 @@
 			)
 		)
 		(property "Value" "AD8608ARUZ-REEL"
-			(at 243.332 61.468 0)
+			(at 262.382 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
