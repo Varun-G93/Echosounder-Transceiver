@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "bbda4c94-3fce-45c2-82e8-1016ec334728")
+	(uuid "a5584189-8e10-407b-af08-49bee5a1e97c")
 	(paper "A4")
 	(title_block
 		(title "Echosounder Transceiver")
@@ -1941,10 +1941,22 @@
 		(uuid "1acf40e3-a15d-461d-9ba6-275e3ae8268f")
 	)
 	(junction
+		(at 179.07 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37410bdc-45e8-4cd2-a811-0bd1af650547")
+	)
+	(junction
 		(at 99.06 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "386994f3-da64-433f-ac58-cedd4034a585")
+	)
+	(junction
+		(at 179.07 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e30cf1e-765b-4894-b9b8-0cdfa488ee31")
 	)
 	(junction
 		(at 185.42 77.47)
@@ -1971,12 +1983,6 @@
 		(uuid "99b43f46-c350-40bf-aee5-e960f1fa187b")
 	)
 	(junction
-		(at 171.45 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e2cbbef-4db3-4153-862a-5a53c69d0a1d")
-	)
-	(junction
 		(at 125.73 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1987,12 +1993,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a524cfa5-3b32-4edc-9d74-7c9bfe9228ca")
-	)
-	(junction
-		(at 171.45 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a82a5d31-ce53-4f76-ae42-2a476b98d0ef")
 	)
 	(junction
 		(at 86.36 76.2)
@@ -2062,7 +2062,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 77.47) (xy 171.45 77.47)
+			(xy 167.64 77.47) (xy 179.07 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2162,7 +2162,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 76.2) (xy 171.45 77.47)
+			(xy 179.07 76.2) (xy 179.07 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2340,6 +2340,16 @@
 		)
 		(uuid "8801c5bd-31ca-4994-9991-02152056e51a")
 	)
+	(wire
+		(pts
+			(xy 179.07 77.47) (xy 185.42 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc8ff9d-d7f2-466b-982d-4d4934ee8266")
+	)
 	(polyline
 		(pts
 			(xy 24.13 24.13) (xy 273.05 24.13)
@@ -2352,7 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 67.31) (xy 171.45 68.58)
+			(xy 179.07 67.31) (xy 179.07 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2472,16 +2482,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 67.31) (xy 185.42 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c29caa10-3547-451c-82f0-b13468489e8f")
-	)
-	(wire
-		(pts
 			(xy 99.06 43.18) (xy 99.06 48.26)
 		)
 		(stroke
@@ -2562,6 +2562,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 67.31) (xy 185.42 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e761cafb-61a8-4ab5-bdea-5841a4bf3b8d")
+	)
+	(wire
+		(pts
 			(xy 200.66 67.31) (xy 212.09 67.31)
 		)
 		(stroke
@@ -2572,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 67.31) (xy 171.45 67.31)
+			(xy 167.64 67.31) (xy 179.07 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2599,16 +2609,6 @@
 			(type default)
 		)
 		(uuid "f318547b-93a1-48e9-8b27-6083847b7e2d")
-	)
-	(wire
-		(pts
-			(xy 171.45 77.47) (xy 185.42 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f679fe6b-e1e8-4a8c-9960-0103f3ae9596")
 	)
 	(wire
 		(pts
@@ -2891,7 +2891,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 72.39 0)
+		(at 179.07 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2899,7 +2899,7 @@
 		(dnp no)
 		(uuid "60b288b8-e348-4702-ba00-554bc1979b2c")
 		(property "Reference" "R68"
-			(at 166.37 72.39 0)
+			(at 173.99 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2908,7 +2908,7 @@
 			)
 		)
 		(property "Value" "120R,1%"
-			(at 172.72 72.39 0)
+			(at 180.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,7 +2917,7 @@
 			)
 		)
 		(property "Footprint" "XaltenFootprints:R0603"
-			(at 169.672 72.39 90)
+			(at 177.292 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2926,7 +2926,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 72.39 0)
+			(at 179.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2935,7 +2935,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 171.45 72.39 0)
+			(at 179.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
